@@ -19,6 +19,7 @@ let entries = {
   polyfill: [
     'es5-shim',
     'es5-shim/es5-sham',
+    'es6-promise',
     'console-polyfill',
     'babel-polyfill'
   ]
@@ -44,6 +45,7 @@ module.exports = {
   cache: true,
   devtool: 'source-map',
   resolve: {
+    extensions: ['', '.js', '.jsx'],
     alias: {
       '@component': path.resolve(__dirname, relativeToRootPath, './src/js/components'),
       '@container': path.resolve(__dirname, relativeToRootPath, './src/js/containers'),

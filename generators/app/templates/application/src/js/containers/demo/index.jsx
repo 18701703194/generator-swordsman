@@ -6,7 +6,7 @@ import { connect } from 'react-redux'
 import pure from 'recompose/pure'
 
 import api from '../../apis/demo'
-import * as demoActions from '../../actions/demo.es6'
+import * as demoActions from '../../actions/demo'
 
 import './index.less'
 

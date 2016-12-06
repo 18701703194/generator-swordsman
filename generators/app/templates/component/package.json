@@ -1,22 +1,23 @@
 {
-  "name": "swordsman",
+  "name": "bp-entertainment-shopbon-frame",
   "version": "0.1.0",
-  "description": "swordsman project",
+  "description": "gfe swordsman project",
   "main": "./src/components/index.jsx",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git@code.dianpingoa.com:gfe/bp-entertainment-shopbon-frame.git"
   },
   "author": {
     "name": "藤蔓",
     "email": "huangbiao.gan@dianping.com"
   },
   "keywords": [
-    "swordsman"
+    "gfe swordsman project"
   ],
   "dependencies": {
     "react": "^0.14.0",
-    "react-dom": "^0.14.0"
+    "react-dom": "^0.14.0",
+    "recompose": "^0.20.2"
   },
   "devDependencies": {
     "babel-polyfill": "^6.13.0",
@@ -62,8 +63,8 @@
     "start": "node server.js"
   },
   "bugs": {
-    "url": ""
+    "url": "http://code.dianpingoa.com/gfe/bp-entertainment-shopbon-frame/issues"
   },
-  "homepage": "",
+  "homepage": "http://code.dianpingoa.com/gfe/bp-entertainment-shopbon-frame",
   "license": ""
 }

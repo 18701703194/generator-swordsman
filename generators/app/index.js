@@ -81,6 +81,7 @@ module.exports = yeoman.Base.extend({
     
     'package_json': function () {
       const currentPkg = this.fs.readJSON(path.join(this.currentTemplatePath, 'package.json'), {})
+      
       this.pkg = extend(currentPkg, {
         name: this.props.name,
         version: this.props.version,
@@ -103,7 +104,7 @@ module.exports = yeoman.Base.extend({
         this.pkg.keywords = _.uniq(this.props.keywords.concat(this.pkg.keywords))
       }
       
-      this.fs.writeJSON(this.destinationPath('package.json'), this.pkg)
+      this.fs.extendJSON(path.join(this.currentTemplatePath, 'package.json'), this.pkg)
     },
     
     'cortex_json': function () {
@@ -125,7 +126,7 @@ module.exports = yeoman.Base.extend({
         homepage: this.pkg.homepage
       }, currentCortex)
 
-      this.fs.writeJSON(this.destinationPath('cortex.json'), cortex)
+      this.fs.extendJSON(path.join(this.currentTemplatePath, 'cortex.json'), cortex)
     },
 
     //copy template files

@@ -1,4 +1,4 @@
-import * as actionTypes from '../actionTypes/demo.es6'
+import * as actionTypes from '../actionTypes/demo'
 
 export function saySome() {
   return {

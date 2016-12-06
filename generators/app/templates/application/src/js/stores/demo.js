@@ -1,8 +1,8 @@
 
 
-import configureStore from './config.jsx'
+import configureStore from './config'
 
-import demo from '../reducers/demo.es6'
+import demo from '../reducers/demo'
 
 
 /**

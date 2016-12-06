@@ -54,7 +54,7 @@
   },
   "repository": "git@github.com:jeffrygan/generator-swordsman.git",
   "scripts": {
-    "test": "gulp"
+    "start": "gulp"
   },
   "license": "MIT"
 }
