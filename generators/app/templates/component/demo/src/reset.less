@@ -1,0 +1,184 @@
+/* 内外边距通常让各个浏览器样式的表现位置不同 */
+body,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+hr,
+button,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
+  margin: 0px;
+  padding: 0px;
+}
+/* 重设 HTML5 标签, IE 需要在 js 中 createElement(TAG) */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
+  display: block;
+}
+/* HTML5 媒体文件跟 img 保持一致 */
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+/* 去除 IE6 input/button 多余的空白 */
+button,
+input {
+  *width: auto;
+  *overflow: visible;
+  /* 让 input 和 button 一样高 */
+  line-height: normal;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+/* 去掉各Table cell 的边距并让其边重合 */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* IE bug fixed: th 不继承 text-align */
+th {
+  text-align: inherit;
+}
+/* 去除默认边框 */
+fieldset,
+img {
+  border: 0;
+}
+/* 解决 IE6-7 图片缩放锯齿问题 */
+img {
+  -ms-interpolation-mode: bicubic;
+}
+/* ie6 7 8(q) bug 显示为行内表现 */
+iframe {
+  display: block;
+}
+/* 一致的 del 样式 */
+del {
+  text-decoration: line-through;
+}
+/* 去掉列表前的标识 */
+ul,
+ol {
+  list-style: none;
+}
+/* 默认不显示下划线，让链接在 hover 状态下显示下划线 */
+a {
+  text-decoration: none;
+}
+a:active {
+  outline: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  font-weight: normal;
+}
+i,
+em {
+  font-style: normal;
+}
+abbr[title],
+acronym[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+button{
+  border: none;
+}
+textarea,
+input {
+  resize: none;
+  outline: none;
+}
+textarea {
+  -webkit-appearance: none;
+}
+label,
+button {
+  cursor: pointer;
+}
+body,
+button,
+input,
+select,
+textarea {
+  font: 12px/1.5 'arial', 'Microsoft YaHei', 'Hiragino Sans GB';
+}
+b {
+  font-weight: normal;
+}
+/* 清浮动 */
+.clearfix:before,
+.clearfix:after {
+  content: '';
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}
+.hide {
+  display: none !important;
+}
+
+.none{
+  display: none !important;
+}
+

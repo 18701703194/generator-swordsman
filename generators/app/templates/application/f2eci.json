@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "build": "cortex install;gulp webpack",
+    "postpublish": ""
+  },
+  "dist": "./dist",
+  "output": "./html",
+  "urlPrefix": "./",
+  "static-src": "static",
+  "env": "dev"
+}

@@ -1,0 +1,4 @@
+export const SAY_HELLO = 'SAY_HELLO'
+export const SHOW_EDIT_PANEL = 'SHOW_EDIT_PANEL'
+export const HIDE_EDIT_PANEL = 'HIDE_EDIT_PANEL'
+export const CANCEL_EDIT = 'CANCEL_EDIT'

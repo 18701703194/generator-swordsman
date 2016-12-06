@@ -1,0 +1,27 @@
+{
+  "name": "",
+  "version": "0.1.0",
+  "description": "swordsman project",
+  "main": "index.js",
+  "directories": {
+    "src": "dist",
+    "html": "html"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "repository": "",
+  "author": {
+    "name": "藤蔓",
+    "email": "huangbiao.gan@dianping.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "swordsman"
+  ],
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}
