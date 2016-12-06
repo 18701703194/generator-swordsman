@@ -17,3 +17,4 @@ yo
 
 ### Remarks
 1. component 不会进行babel编译,直接暴露源码,在application中@gfe的npm包都会过babel编译
+2. 在eslint-plugin-react的基础上配置了下eslint,eslint-plugin-react对编写react的代码规范和性能优化有些帮助,但真的很繁琐,默认配置项是注释了,需要自己改下webpack

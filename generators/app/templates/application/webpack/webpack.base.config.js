@@ -87,7 +87,14 @@ module.exports = {
     }, {
       test: /\.woff|ttf|woff2|eot$/,
       loader: 'url?limit=100000'
-    }]
+    }
+      //   ,{
+      //   //eslint代码规范检验
+      //   test: /\.(es6|jsx|js)$/,
+      //   exclude: /node_modules/,
+      //   loader: "eslint-loader"
+      // }
+    ]
   },
   postcss: function () {
     //css后处理
