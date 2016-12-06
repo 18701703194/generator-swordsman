@@ -52,7 +52,7 @@
       "mocha": true
     }
   },
-  "repository": "git@code.dianpingoa.com:cortex/generator-swordsman.git",
+  "repository": "git@github.com:jeffrygan/generator-swordsman.git",
   "scripts": {
     "test": "gulp"
   },
