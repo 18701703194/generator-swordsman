@@ -1,11 +1,11 @@
 {
-  "name": "bp-entertainment-shopbon-frame",
+  "name": "bp-checkbox",
   "version": "0.1.0",
   "description": "gfe swordsman project",
   "main": "./src/components/index.jsx",
   "repository": {
     "type": "git",
-    "url": "git@code.dianpingoa.com:gfe/bp-entertainment-shopbon-frame.git"
+    "url": "git@code.dianpingoa.com:gfe/bp-checkbox.git"
   },
   "author": {
     "name": "藤蔓",
@@ -63,8 +63,8 @@
     "start": "node server.js"
   },
   "bugs": {
-    "url": "http://code.dianpingoa.com/gfe/bp-entertainment-shopbon-frame/issues"
+    "url": "http://code.dianpingoa.com/gfe/bp-checkbox/issues"
   },
-  "homepage": "http://code.dianpingoa.com/gfe/bp-entertainment-shopbon-frame",
+  "homepage": "http://code.dianpingoa.com/gfe/bp-checkbox",
   "license": ""
 }

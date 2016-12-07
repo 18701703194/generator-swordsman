@@ -72,7 +72,7 @@ module.exports = {
       loader: 'style!css?modules&localIdentName=[local]___[hash:base64:5]!postcss!less'
     }, {
       test: /\.(jpe?g|png|gif|svg)$/i,
-      loaders: 'url?limit=25000'
+      loader: 'url?limit=25000'
     }, {
       test: /\.woff|ttf|woff2|eot$/,
       loader: 'url?limit=100000'
